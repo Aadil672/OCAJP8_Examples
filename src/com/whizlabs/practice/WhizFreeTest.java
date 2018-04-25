@@ -53,21 +53,21 @@ public static void main(String[] args) {
 	}
 }*/
 
-/*public class WhizFreeTest 
-{
-public static void main(String[] args) {
-	
-	try{	
-	Double number=Double.valueOf("120D");
-	
-	}catch(NumberFormatException ex)
-	{
-		System.out.println(ex);
-		
+/*public class WhizFreeTest {
+	public static void main(String[] args) {
+
+		try {
+			Double number = Double.valueOf("120D");
+
+		} catch (NumberFormatException ex) {
+			System.out.println(ex);
+
+		}
+		System.out.println(number);
 	}
-	System.out.println(number);
-}
 }*/
+
+
 
 /*public class WhizFreeTest 
 {
@@ -81,6 +81,33 @@ public static void main(String[] args) {
 }*/
 
 
+/*public class WhizFreeTest {
+	public static void main(String[] args) {
+
+		String s = "A";
+
+		switch (s) {
+		case "a":
+			System.out.println("simple A");
+		default:
+			System.out.println("default");
+		case "A":
+			System.out.println("Capital A");
+		}
+	}
+}*/
+
+
+
+/*public class WhizFreeTest {
+	public static void main(String[] args) {
+		Integer number = Integer.valueOf("808.1");
+		System.out.println(number);     //NumberFormatException
+	}
+}*/
+
+
+
 /*public class WhizFreeTest 
 {
 public static void main(String[] args) {
@@ -91,6 +118,8 @@ public static void main(String[] args) {
 	System.out.println(sb);
 	}
 }*/
+
+
 
 /*import java.time.LocalDate;
 import java.time.Period;
@@ -106,6 +135,9 @@ public static void main(String[] args) {
 //output: 2018-02-24
  */
 
+
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -116,6 +148,7 @@ public static void main(String[] args) {
 	List<Integer> list= new ArrayList<>();
 	list.add(21);list.add(11);list.add(30);list.add(2);list.add(13);list.add(17);
 	System.out.println("List created:"+list);
+	
 	//list.removeIf(e->e%2==0);
 	//System.out.println("Odd List created:"+list);
 	list.removeIf(e->e%2!=0);
